@@ -39,9 +39,10 @@ img {
 
 
 h1{
-    font-size: 48px;
+    font-size: 36px;
     /* line-height:1.25; */
     color: #020202;
-    font-family:'Real Text Pro', sans-serif;
+    font-family:'Nixie-One', 'American Typewriter', serif;
     margin:0px;
+    font-weight:lighter;
 }
