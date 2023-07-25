@@ -14,7 +14,9 @@ body{
     position:absolute;
     top:0px;
     left:0px;
-    background-color: transparent;
+    background-color: red;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .thumbnail{
@@ -22,7 +24,7 @@ body{
     height:100%;
     position:absolute;
     top:0px;
-    left:20vw;
+    left:25vw;
     background-color: transparent;
     overflow: hidden;
 }
@@ -39,10 +41,42 @@ img {
 
 
 h1{
-    font-size: 36px;
+    font-size: 30px;
+    line-height:1.2;
     /* line-height:1.25; */
     color: #020202;
     font-family:'Nixie-One', 'American Typewriter', serif;
     margin:0px;
     font-weight:lighter;
+    position:absolute;
+
+}
+
+h3{
+    font-size: 18px;
+    font-family:'Nixie-One', 'American Typewriter', serif;
+    font-weight:lighter;
+    position:absolute;
+    line-height:1.5;
+}
+
+p {
+    font-family:'IBMPlexSans-Regular', sans-serif;
+    font-size: 12px;  
+    position:absolute;
+
+}
+
+.title{
+    top:10vh;
+}
+
+.explain {
+    top:30vh;
+    padding-right:20px;
+}
+
+.headermenu {
+    top:50vh;
+    position:absolute;
 }
