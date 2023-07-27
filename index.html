@@ -10,53 +10,46 @@
         <title>Mari Hosho</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel = "IBMPlexSans-Regular" href="/fonts/IBMPlexSans-Regular.ttf">
+        <link rel = "Roboto" href="/fonts/Roboto.ttf">
         <link rel = "Nixie-One" href="/fonts/NixieOne-Regular.ttf">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class = "container">
-        <div class = "menubar">
-            <h1 class = "title">Hi! I'm Mari. I draw, design, and code.</h1>
-            <p class = "explain">I'm an interactive designer with a strong background in advertisement and branding, currently a Communication Design student at Parsons School of Design. I will be graduating in December 2022.
-            I'm a traveler for life: originally from Japan, shipped to Vietnam, Indonesia, the Netherlands and currently in New York, the United States.
-            </p>
-            <div class = "headermenu">
-                <h3>WORK</h3>
-                <br>
-                <br>
-                <h3>PLAY</h3>
-                <br>
-                <br>
-                <h3>ARCHIVE</h3>
-                <br>
-                <br>
+        <div class="container">
+            <div class="menubar">
+              <h1 class="title">Hi! I'm Mari.<br> I draw, design, and code.</h1>
+              <p class="explain">I'm an interactive designer with a strong background in advertisement and branding.
+                I'm a traveler for life: originally from Japan, shipped to Vietnam, Indonesia, the Netherlands, and currently in New York, the United States.
+              </p>
+              <br>
+              <div class="headermenu">
+                <div class="work"><h3>WORK</h3>
+                <div class="hovermenu">
+                    <h3>BRANDING</h3>
+                    <h3>INTERACTIVE</h3>
+                    <h3>EDITORIAL</h3>                   
+                </div>
+                </div>
+                <!-- <h3>PLAY</h3> -->
+                <a href="https://www.behance.net/mari-hosho"><h3>ARCHIVE</h3></a>
                 <br>
                 <h3>CONTACT</h3>
+                <a href = "https://drive.google.com/file/d/1nqRgWq5LU9pu2zoi9d1zlxS5Oc6wyHkQ/view?usp=sharing"><h3>RESUME</h3></a>
                 <br>
-                <br>
-                <h3>RESUME</h3>
-                <br>
-                <br>
-                <br>
-                <h3>LINKEDIN</h3>
-                <br>
-                <br>
-                <h3>INSTAGRAM</h3>
-                <br>
+                <a href="https://www.linkedin.com/in/mari-hosho/"><h3>LINKEDIN</h3></a>
+                <a href="https://www.instagram.com/mari_hosho/"><h3>INSTAGRAM</h3></a>
+            </div>
+            <div class="thumbnail">
+              <div class="button button-left" onclick="plusDivs(1)">NEXT</div>
+              <div class="button button-right" onclick="plusDivs(-1)">BACK</div>
+              <img class="slider" src="/thumbnails/craigslist.png">
+              <img class="slider" src="/thumbnails/lush.png">
+              <img class="slider" src="/thumbnails/natgeo.png">
+              <img class="slider" src="/thumbnails/noguchi.jpg">
+              <img class="slider" src="/thumbnails/secretgarden.png">
+              <img class="slider" src="/thumbnails/travelerscollage.jpg">
             </div>
         </div>
-        <div class = "thumbnail">
-            <button class="button button-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="button button-right" onclick="plusDivs(+1)">&#10095;</button>
-            <img class = "slider" src="/thumbnails/craigslist.png"></img>
-            <img class = "slider" src="/thumbnails/lush.png"></img>
-            <img class = "slider" src="/thumbnails/natgeo.png"></img>
-            <img class = "slider" src="/thumbnails/noguchi.jpg"></img>
-            <img class = "slider" src="/thumbnails/secretgarden.png"></img>
-            <img class = "slider" src="/thumbnails/travelerscollage.jpg"></img>
-        </div>
-    </div>
     <script src="scripts.js"></script>
     </body>
 </html>
